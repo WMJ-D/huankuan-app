@@ -1,0 +1,105 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "上岸计划",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tasks/index",
+      "style": {
+        "navigationBarTitleText": "贷款平台",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tasks/detail",
+      "style": {
+        "navigationBarTitleText": "贷款详情",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tasks/add",
+      "style": {
+        "navigationBarTitleText": "新增贷款",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/monthly/index",
+      "style": {
+        "navigationBarTitleText": "月度记录",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/friends/index",
+      "style": {
+        "navigationBarTitleText": "亲友借款",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/friends/detail",
+      "style": {
+        "navigationBarTitleText": "借款详情",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/music/index",
+      "style": {
+        "navigationBarTitleText": "音乐播放器",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "上岸计划",
+    "navigationBarBackgroundColor": "#1a1a2e",
+    "backgroundColor": "#1a1a2e",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#8e8e93",
+    "selectedColor": "#4CAF50",
+    "borderStyle": "black",
+    "backgroundColor": "#16213e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/tasks/index",
+        "text": "贷款",
+        "iconPath": "static/tab-task.png",
+        "selectedIconPath": "static/tab-task-active.png"
+      },
+      {
+        "pagePath": "pages/monthly/index",
+        "text": "月记",
+        "iconPath": "static/tab-monthly.png",
+        "selectedIconPath": "static/tab-monthly-active.png"
+      },
+      {
+        "pagePath": "pages/friends/index",
+        "text": "亲友",
+        "iconPath": "static/tab-friend.png",
+        "selectedIconPath": "static/tab-friend-active.png"
+      }
+    ]
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  }
+}
